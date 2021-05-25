@@ -1,0 +1,389 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+    height: 37rem;
+    background-color: #87509c;
+    text-align: center;
+}
+.Header-section {
+  
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.Header-section .logo {
+  padding-right: 45rem;
+}
+.Header-section .navbar ul li {
+  display: inline;
+  padding: .5rem 1rem;
+  font-weight: regular;
+}
+.Header-section .navbar {
+  padding-top: 1rem;
+  border-radius: 15%;
+}
+.Header-section .navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.Header-section .navbar ul li:hover {
+    background-color: #643a79;
+    padding: .5rem 1rem;
+    border-radius: 10%;
+    color: #fff;
+
+}
+.Header-section .navbar ul li:first-child {
+    margin-right: 0;
+}
+.active {
+    background-color: #643a79;
+    padding: 6px 15px;
+}
+.header-paragraph {
+    padding-top: 9rem;
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: bold;
+    font-weight: bold;
+}
+.btn-work {
+    margin-top: 4rem;
+    height: 4rem;
+    width: 16rem;
+    box-shadow: 0px 2px #c86a40;
+    background-color: #EB7D4B;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 5%;
+    border-color: #EB7D4B;
+    color: #fff;
+    font-size: 1.5rem;
+}
+/* Start Services-section */
+.Services-section {
+    text-align: center;
+    height: 45rem;
+    background-color: #17C2A4;
+    color: #fff;
+}
+.Services-section h1 {
+    padding-top: 9rem;
+    position: relative;
+    font-size: 3rem;
+}
+.Services-section h1::after {
+    content: "";
+    width: 8.5rem;
+    height: .3rem;
+    margin: auto;
+    background-color: #14A58C;
+    display: block;
+    margin-top: .9rem;
+}
+h2  {
+    margin-top: 1.5rem;
+}
+.barnd-para {
+    margin-top: 1rem;
+    
+}
+.services-para {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.services-sub {
+}
+.services-icon {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 7rem;
+    padding: 0 30rem;
+}
+/* start team-section */
+.team-section {
+    text-align: center;
+    height: 55rem;
+    background-color: #E7F1F8;
+}
+.team-section h1::after {
+    content: "";
+    width: 8.5rem;
+    height: .3rem;
+    margin: auto;
+    background-color: #c8d9e5;
+    display: block;
+    margin-top: .5rem;
+}
+h1 {
+    padding-top: 8rem;
+    font-size: 3rem;
+    
+}
+h2 {
+    text-transform: uppercase;
+    
+}
+h5 {
+    padding-top: 1rem;
+    color: #55c2e9;
+}
+.flag {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.services-para {
+    font-size: 1.5rem;
+}
+.Address-para {
+    margin-top: 1rem;
+    color: #788192;
+    
+}
+.Address-sub h2 {
+    color: #3c4761;
+}
+.icon-link {
+    padding-top: 1rem;
+}
+.icon-link .fa {
+    background-color: #bdd1df;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    padding-top: .5rem;
+    color: #fff;
+}
+/* Start skill-section  */
+.skill-section {
+    height: 41rem;
+    text-align: center;
+    background-color: #fff;
+}
+.skill-section .h1 {
+    font-size: 3rem;
+}
+.progress-bar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 8rem 28rem;
+    
+}
+/* -- Start Protfolio section   */
+.Protfolio-section {
+    height: 95rem;
+    background-color: #FFDD99;
+}
+.Protfolio-section h1 {
+    font-size: 3rem;
+}
+.protfolio-bar {
+display: flex;
+justify-content: center;
+
+}
+.Protfolio-section h1 {
+    font-size: 1.5rem;
+}
+.protfolio-bar li {
+    padding: 1rem 0.5rem;
+    display: flex;  
+}
+.Protfolio-para {
+    padding-top: 2rem;
+    font-size: 1.3rem;
+}
+.protfolio-bar li a  {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    background-color: #EBC985;
+    border-radius: 10%; 
+}
+.protfolio-bar li .activee {
+    background-color: #fff;
+}
+.protfolio-bar li a:hover {
+    background-color: #fff;
+    border-radius: 10%;
+    padding: .5rem 1rem;
+}
+.protfolio-img {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 4rem 30rem;
+
+}
+.btn2-work {
+    margin-top: 4rem;
+    height: 4rem;
+    width: 16rem;
+    box-shadow: 0px 2px #17C2A4;
+    background-color: #17C2A4;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 5%;
+    border-color: #17C2A4;
+    color: #fff;
+    font-size: 1.5rem;
+}
+/* Start about-section  */
+.about-section {
+    height: 51rem;
+    background-color: #D74680;
+    color: #fff;
+    text-align: center;
+}
+
+.about-collection {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0rem 30rem;
+}
+.about-section h1 {
+    letter-spacing: .3rem;
+    font-size: 1.5rem;
+}
+.about-section h1::after{
+    content: "";
+    width: 8.5rem;
+    height: .3rem;
+    margin: auto;
+    background-color: #b73c6d;
+    display: block;
+    margin-top: .5rem;
+}
+.about-sub {
+    padding-top: 5rem;
+ }
+
+.about-dolar {
+    font-size: 1rem;
+    text-align-last: left; 
+}
+.Self {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%; 
+}
+.About-paraa {
+    padding-top: 1rem;
+}
+.text-main {
+ padding-top: 5rem;
+}
+.sub-content {
+    display: flex;
+}
+.client-img {
+
+}
+.client-para {
+    padding-left: 3rem;
+    padding-top: .3rem;
+}
+.client-para h5{
+    color: #ffdd99;
+    font-size: 1rem;
+    text-align-last: left;
+}
+.client-para h2 {
+    text-align-last: left;
+}
+/* Start touch-section  */
+.touch-section {
+    height: 49rem;
+    background-color: #3C5499;
+    color: #fff;
+    
+}
+.touch-section h1{
+    font-size: 1.5rem;
+}
+.touch-section h1::after {
+    content: "";
+    width: 8.5rem;
+    height: .3rem;
+    margin: auto;
+    background-color: #273A71;
+    display: block;
+    margin-top: .5rem;
+}
+.touch-loging {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 1rem;
+
+}
+.input-name {
+    padding: 0rem 1rem;
+   
+
+}
+.input-area {
+    height: 3.5rem;
+    width: 25rem;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    background-color: #273A71;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+
+    
+}
+.message-sent {
+    padding-top: 1rem;
+
+}
+.input-message {
+    height: 13rem;
+    width: 52rem;
+    text-transform: capitalize;
+    background-color: #273A71;
+    border: none;
+    font-size: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+.btn3-work {
+    margin-top: 4rem;
+    height: 4rem;
+    width: 16rem;
+    box-shadow: 0px 2px #30BAE7;
+    background-color: #30BAE7;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 5%;
+    border-color: #30BAE7;
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+/* Start Footer section  */
+.footer-section {
+    height: 7rem;
+    background-color: #344B8E;
+
+
+}
+.footer-area {
+    padding-top: 3rem;
+    color: #fff;
+}
+.footer-area a {
+    padding: 0rem 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+}
